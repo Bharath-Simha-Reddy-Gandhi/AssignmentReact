@@ -1,0 +1,14 @@
+.editphotoform{
+    display: flex;
+    flex-direction: column;
+}
+.editphotoform div {
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.editphotoform label {
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+}

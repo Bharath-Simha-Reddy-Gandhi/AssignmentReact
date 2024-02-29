@@ -1,0 +1,49 @@
+.editprofile-fields {
+    width: 80%;
+    margin: 0 auto;
+}
+.first-last-name {
+    display: flex;
+    column-gap: 30px;
+}
+
+.first-name, .last-name, .email, .username, .other-edit-fields {
+display: flex;
+flex-direction: column;
+width: 500px;
+}
+
+.editprofile-fields label {
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.editprofile-fields input{
+    margin-bottom: 25px;
+    padding: 5px 15px;
+}
+
+.submit-cancel-buttons {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 60px;
+}
+
+.submit-button {
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight:400;
+}
+.cancel-button {
+    background-color: #ccc;
+    color: black;
+    border-radius: 5px;
+    border: transparent;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight:400;
+}
